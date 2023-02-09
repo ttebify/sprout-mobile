@@ -7,7 +7,7 @@ import DashboardScreen from "../features/dashboard/DashboardScreen";
 
 const Stack = createNativeStackNavigator<AppNavigatorList>();
 
-function AppNavigator() {
+function MainAppNavigator() {
   return (
     <Stack.Navigator
       screenOptions={{ headerShown: false }}
@@ -21,4 +21,4 @@ function AppNavigator() {
   );
 }
 
-export default AppNavigator;
+export default MainAppNavigator;
